@@ -1,0 +1,29 @@
+
+ul {
+    list-style-type: none;
+    margin: 15px;   /* Centers the bar */
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFAF1;
+
+    width: auto;                 /* Change to 60%, 70%, 80%, etc. */
+
+    border-radius: 12px;
+}
+li {
+    float: left;
+    width: 33.33%;          /* Three buttons, each takes one-third */
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    font-size: 135%;
+}
+
+li a:hover {
+    background-color: #EFE0BB;
+}

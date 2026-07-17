@@ -1,0 +1,44 @@
+.chart-container{
+
+    width:500px;
+    height:350px;
+
+    background:#FFFFFF;
+
+    margin:100px auto 0 auto;   /* Moves the graph down */
+
+    padding:15px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;   /* Centers the bar */
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFAF1;
+
+    width: auto;                 /* Change to 60%, 70%, 80%, etc. */
+
+    border-radius: 12px;
+}
+li {
+    float: left;
+    width: 33.33%;          /* Three buttons, each takes one-third */
+}
+
+li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    font-size: 135%;
+}
+
+li a:hover {
+    background-color: #EFE0BB;
+}
